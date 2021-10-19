@@ -12,12 +12,9 @@ Le but de l'exercice est de créer les pages suivantes pour le backoffice de Che
 - 👤 Une liste de clients
 - 👤 Une page de création de client
 - 👤 Une page de détails de client
-- 🏠 Une liste de réservations
-- 🏠 Une page d'ajout d'une réservation
-- 🏠 Une page de détails d'une réservation
 
 Une petite API te permet de récupérer les différentes données :
-L'accès à l'application de booking : https://app-booking-christ.herokuapp.com/  
+L'accès à l'API : https://app-booking-christ.herokuapp.com/  
 
 ### Liste des routes:
 
@@ -74,24 +71,11 @@ L'accès à l'application de booking : https://app-booking-christ.herokuapp.com/
     "apartmentId": "..."
 }
 ```
-#### Booking
-* api/booking (GET)
-* api/booking/:id (GET)
-* api/booking (POST)  
-**format de requête à envoyer**
-```metadata json
-{
-    "clientId": "...",
-    "roomId" : "..."
-}
-```
 
 De plus, vous veillerez à respecter les règles suivantes :
-- Un appartement contient au moins 1 chambre.
-- Un client ne peut pas réserver plusieurs chambres en même temps.
-- Lorsqu'une chambre a été réservée par un client, elle ne peut plus être réservée.
+- Utilisez le framework **React**, avec une version récente (hooks et contexts fortement appréciés)
+- Un appartement contient au moins 1 chambre
 
-**Technologie** : le langage, le framework et plus généralement les outils sont Vue Js ou React Js, utilisez ce que vous connaissez le mieux ! :)
 
 Le sujet est volontairement extrêmement large.
 
