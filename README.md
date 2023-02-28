@@ -10,12 +10,12 @@ Nous aimerions que tu créés une application React simple qui affiche une liste
 
 ## Exigences
 
-- Utilisez React pour créer l'application
-- Utilisez React Context pour gérer l'état de l'application
-- Utilisez un style CSS simple pour styliser l'application (possibilité d’utiliser une librairie comme Tailwind ou Bootstrap)
+- Utilise React/Typescript pour créer l'application
+- Utilise React Context pour gérer l'état de l'application
+- Utilise un style CSS simple pour styliser l'application (possibilité d’utiliser une librairie comme Tailwind ou Bootstrap)
 - La liste des tâches doit être stockée dans une source de données externe (par exemple, un fichier JSON).
-- L'application doit contenir des fonctionnalités pour voir, créer, éditer et supprimer des tâches.
-- Les tâches doivent être triées par ordre alphabétique, et on doit pouvoir les afficher dans une page dédiée
+- L'application doit contenir des fonctionnalités pour voir, créer, éditer et supprimer des appartements.
+- Les appartements doivent être triés par ordre alphabétique, et on doit pouvoir les afficher dans une page dédiée
 
 ## Instructions
 
