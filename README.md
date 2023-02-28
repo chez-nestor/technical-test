@@ -2,11 +2,11 @@
 
 -----
 
-Nous aimerions évaluer vos compétences en matière de développement front-end React en utilisant ce test technique. Ce test devrait prendre environ deux heures à compléter. Le but de ce test est de nous aider à comprendre comment vous abordez la création d'une application React simple.
+Nous aimerions évaluer tes compétences en matière de développement front-end React en utilisant ce test technique. Ce test devrait prendre environ deux heures à compléter. Le but de ce test est de nous aider à comprendre comment tu abordes la création d'une application React simple.
 
 ## Description du projet
 
-Nous aimerions que vous créiez une application React simple qui affiche une liste de tâches. L'application doit permettre à l'utilisateur de créer, éditer et supprimer des tâches. Chaque tâche doit avoir un nom et une description.
+Nous aimerions que tu créés une application React simple qui affiche une liste d'appartements. L'application doit permettre à l'utilisateur de créer, éditer et supprimer des appartements. Chaque appartement doit avoir un nom, une description, un prix et une photo.
 
 ## Exigences
 
@@ -19,11 +19,9 @@ Nous aimerions que vous créiez une application React simple qui affiche une lis
 
 ## Instructions
 
-- Clonez ce référentiel.
-- Créez une branche à partir de la branche principale.
-- Implémentez les fonctionnalités décrites ci-dessus.
-- Testez soigneusement votre application pour vous assurer qu'elle fonctionne correctement.
-- Créez une demande de tirage pour fusionner votre branche avec la branche principale.
+- Ton code devra être hébergé sur Github
+- Un README devra expliquer comment utiliser l'application
+- Une fois terminé, tu n'auras plus qu'à nous envoyer le lien de ton repo
 
 ## Critères d'évaluation
 
