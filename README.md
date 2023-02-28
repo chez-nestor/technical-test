@@ -2,90 +2,33 @@
 
 -----
 
-Le but de l'exercice est de créer les pages suivantes pour le backoffice de Chez Nestor :
+Nous aimerions évaluer vos compétences en matière de développement front-end React en utilisant ce test technique. Ce test devrait prendre environ deux heures à compléter. Le but de ce test est de nous aider à comprendre comment vous abordez la création d'une application React simple.
 
-- 🏠 Une liste des appartements
-- 🏠 Une page de création d'un appartement
-- 🏠 Une page de détails d'un appartement avec ses chambres
-- 🛏️ Une liste de chambres par appartement
-- 🛏️ Une page de création d'une chambre d'un appartement
-- 👤 Une liste de clients
-- 👤 Une page de création de client
-- 👤 Une page de détails de client
+## Description du projet
 
-Une petite API te permet de récupérer les différentes données :
-L'accès à l'API : https://app-booking-christ.herokuapp.com/  
+Nous aimerions que vous créiez une application React simple qui affiche une liste de tâches. L'application doit permettre à l'utilisateur de créer, éditer et supprimer des tâches. Chaque tâche doit avoir un nom et une description.
 
-### Liste des routes:
+## Exigences
 
-#### Apartment
-* api/apartment (GET)
-* api/apartment/:id (GET)
-* api/apartment (POST)  
-**format attendu de requête à envoyer**
-```metadata json
-{
-    "number": "...",
-    "name": "...",
-    "rooms": [
-        {
-            "number":"...",
-            "area": "...",
-            "price": "..."
-        },
-        {
-            "number":"...",
-            "area": "...",
-            "price": "..."
-        }
-    ]
-}
-```
+- Utilisez React pour créer l'application
+- Utilisez React Context pour gérer l'état de l'application
+- Utilisez un style CSS simple pour styliser l'application (possibilité d’utiliser une librairie comme Tailwind ou Bootstrap)
+- La liste des tâches doit être stockée dans une source de données externe (par exemple, un fichier JSON).
+- L'application doit contenir des fonctionnalités pour voir, créer, éditer et supprimer des tâches.
+- Les tâches doivent être triées par ordre alphabétique, et on doit pouvoir les afficher dans une page dédiée
 
-#### Client
-* api/client (GET)
-* api/client/:id (GET)
-* api/client (POST)  
-**format de requête à envoyer**
-```metadata json
-{
-    "firstName": "...",
-    "lastName": "...",
-    "email": "...",
-    "phone": "...",
-    "nationality": "...",
-    "birthDate": "..."
-}
-```
+## Instructions
 
-#### Room
-* api/room (GET)
-* api/room/:id (DELETE)
-* api/room (POST)  
-**format de requête à envoyer**
-```metadata json
-{
-    "number":"...",
-    "area": "...",
-    "price": "...",
-    "apartmentId": "..."
-}
-```
+- Clonez ce référentiel.
+- Créez une branche à partir de la branche principale.
+- Implémentez les fonctionnalités décrites ci-dessus.
+- Testez soigneusement votre application pour vous assurer qu'elle fonctionne correctement.
+- Créez une demande de tirage pour fusionner votre branche avec la branche principale.
 
-De plus, vous veillerez à respecter les règles suivantes :
-- Utilisez le framework **React**, avec une version récente (hooks et contexts fortement appréciés)
-- Un appartement contient au moins 1 chambre
+## Critères d'évaluation
 
-
-Le sujet est volontairement extrêmement large.
-
-Quelques pistes de choses qui nous intéressent :
-
-- ✨ Propreté de code : découpage, gestion d'erreurs, nommage des variables / fonctions, etc.
-- 📚 Utilisation de librairies / frameworks
-- 🎨 Réflexion UI / UX
-- ⚙️ Tests
-- ☁️ Déploiement sur un hébergeur (Netlify, Heroku ou autre)
-- 📦 Consommation d'API
-
-Si tu penses que tu as fait quelque chose qui mérite notre attention, n'hésite pas à nous le signaler ! :) 
+- ✨ Propreté de code
+- 📚 Utilisation de librairies / frameworks
+- 🎨 Réflexion UI / UX
+- 📦 Utilisation de données
+- ☁️ BONUS: Déploiement sur un hébergeur
