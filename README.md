@@ -7,6 +7,7 @@ Nous aimerions évaluer tes compétences en matière de développement front-end
 ## Description du projet
 
 Nous aimerions que tu créés une application React simple qui affiche une liste d'appartements. Chaque appartement doit avoir un nom, une description, un prix et une photo.
+
 Si tu as le temps, tu peux ajouter la possibilité de créer, éditer et supprimer des appartements.
 
 ## Exigences
@@ -15,7 +16,9 @@ Si tu as le temps, tu peux ajouter la possibilité de créer, éditer et supprim
 - Utilise un style CSS simple pour styliser l'application (possibilité d’utiliser une librairie comme Tailwind ou Bootstrap)
 - La liste des appartements doit être stockée dans une source de données externe (par exemple, un fichier JSON).
 - Les appartements doivent être triés par ordre de prix, et on doit pouvoir les afficher dans une page dédiée
-Bonus:
+
+*Bonus:*
+
 - L'application doit contenir des fonctionnalités pour voir, créer, éditer et supprimer des appartements.
 - Utilise React Context pour gérer l'état de l'application sera un plus
 
